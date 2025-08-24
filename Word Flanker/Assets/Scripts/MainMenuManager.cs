@@ -5,7 +5,7 @@ public class MainMenuManager : MonoBehaviour
 {
     public void PlayLevel(int levelIndex)
     {
-        LevelManager.SelectedLevel = levelIndex;
+        LevelManager.currentLevelIndex = levelIndex;
         SceneManager.LoadScene("Game");
     }
 }
